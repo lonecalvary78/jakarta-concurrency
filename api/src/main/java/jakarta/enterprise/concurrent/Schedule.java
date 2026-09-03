@@ -334,7 +334,7 @@ public @interface Schedule {
                             : Arrays.copyOf(daysOfWeek, daysOfWeek.length),
                     hours.length == 0
                             ? hours
-                            : Arrays.copyOf(hours, months.length),
+                            : Arrays.copyOf(hours, hours.length),
                     minutes.length == 0
                             ? minutes
                             : Arrays.copyOf(minutes, minutes.length),
